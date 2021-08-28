@@ -1,0 +1,88 @@
+$primarycolor: #37517e;
+
+
+.Content{
+    padding: 0 7% 4% 5%;
+    margin-top:60px;
+    @media only screen and (min-width: 320px) and (max-width: 720px) {
+      padding:0 2% 90px 2%;
+      margin-top:75px;
+  }
+}
+//Header
+.Head {
+  height: 70px;
+  width: 100%;
+  background-color: #D6D8DCff;
+  z-index: 1;
+  padding: 20px 100px;
+  justify-content: space-between;
+  display: flex;
+  .username{
+      display: flex;
+      justify-content: space-between;
+      h2{
+          font-size:22px;
+          span{
+              font-weight: 800;
+              color:$primarycolor;
+          }
+      }
+      p{
+          margin-left:40px;
+          margin-top: 5px;;
+      }
+  }
+  .noti{
+      img{
+          height:25px;
+          width:25px;
+      }
+  }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+   
+  }
+}
+
+//SideMenu
+.SideMenu {
+  height:100vh;
+  background-color: $primarycolor;
+  position: fixed;
+  width: 220px;
+  padding: 50px 0 0 20px;
+  .logo{
+      width:160px;
+      height: auto;
+      margin: auto;
+  }
+  nav {
+    padding-left: 0;
+    margin-top:100px;
+    .NavItem {
+      margin-bottom: 40px;
+      list-style: none;
+      
+      a {
+        color: #fff;
+        font-size: 13px;
+        display: flex;
+        :hover {
+          font-weight: 600;
+          text-decoration: none;
+          :active {
+            font-weight: 600;
+          }
+        }
+      }
+      img {
+        margin-right: 15px;
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 720px) {
+    display: none;
+  }
+}

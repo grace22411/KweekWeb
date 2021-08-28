@@ -1,0 +1,17 @@
+@media (min-width: 991px) {
+    .header-container {
+        padding: 10px 8%;
+    }
+
+    .homeFooter .download-app .col-7, .homeFooter .download-app .col-5{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .homeFooter .download-app {
+        position: absolute;
+        width: 80%;
+        right: 0;
+    }
+}
