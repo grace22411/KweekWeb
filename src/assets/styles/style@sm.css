@@ -1,0 +1,244 @@
+@media (max-width: 456px) {
+       
+    .header-container {
+        padding: 1px;
+        height: 50px;
+    }
+       
+    .header-container .logo {
+        height: 30px;
+        position: relative;
+        top: 0px;
+    }
+
+    .header-container .authLinks {
+        top: -7px;
+        font-size: 12px;
+    }
+
+    .header-container .authLinks .createAccount {
+        padding: 8px 10px !important;
+        font-size: 12px;
+        color:white !important;
+    }
+
+    .header-container .authLinks .fa-2x {
+        font-size: 24px !important;
+        margin-right: 8px;
+        margin-top: -2.5px;
+    }
+
+    /* HERO CSS */
+
+    .hero-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #fff;
+        margin: 0;
+        margin-top: 0px;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #fff;
+        margin-top: 0px;
+    }
+   
+    .hero-text {
+        font-size: 12px;
+        color: #fff;
+        margin-top: -10px;
+    }
+
+    .hero-left form {
+        width: 100%;
+    }
+
+    .hero-left form .ant-select {
+        width: 100px !important;
+        font-size: 10px;
+    }
+
+    .hero-left form .ant-select-selector {
+        width: 100px !important;
+        font-size: 12px;
+    }
+
+    .hero-left form .banner-button {
+        padding: 5px 5px !important;
+        margin-left: -10px;
+    }
+
+    .hero-left form .banner-button button {
+        font-size: 12px !important;
+        width: 90px;
+        padding: 0;
+    }
+
+    .calculator {
+        width: 100vw !important;
+        padding: 10px;
+        margin: 0;
+        margin-top: -30px;
+    }
+
+    .hide-calc-button {
+        position: relative;
+        left: 0px;
+        top: 10px;
+        background: #fff;
+    }
+
+    .hide-desktop {
+        display: inline-block;
+    }
+
+    .hide-calc-mobile {
+        display: none;
+    }
+
+    .rate-calculator, .hero-form-box {
+        float: left !important;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .rate-calculator .hero-search {
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    .rate-calculator span.rate {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: -15px;
+    }
+
+    .rate-calculator .calculator-input {
+        margin-left: -15px;
+        margin-right: 5px;
+    }
+
+    .rate-calculator .calculator-select-class .ant-select-selector {
+        width: 55px !important;
+        padding: 0 3px !important;
+    }
+
+    .rate-calculator .ant-select {
+        padding: 0px 0px;
+    }
+
+    .rate-calculator .ant-select-selection-item {
+        font-size: 10px;
+    }
+  
+    .rate-calculator .rate-show {
+        font-size: 10px;
+    }
+
+    .hero-form-box .currency-box small {
+        font-size: 8.5px !important;
+    }
+
+    .hero-form-box .currency-box {
+        min-width: 60px;
+    }
+
+    .hero-box .calculator-select-class small {
+        font-size: 8.5px !important;
+    }
+
+    .hero-box .ant-select .ant-select-arrow {
+       margin-right: 25px !important;
+    }
+
+    .hero-box .calculator-select-class .ant-select-selector {
+        max-width: 75px !important;
+        left: -3px;
+    }
+
+    .hero-box .ant-select-selector small {
+        margin-top: 2px !important;
+        font-size: 9px;
+    }
+
+    .recent-lists-box {
+        margin: 5px 10px !important;
+    }
+
+       /* FOOTER CSS */
+    .homeFooter {
+        min-height: 700px;
+    }
+    
+    .homeFooter .download-app {
+        position: relative;
+        padding: 0;
+    }
+
+    .homeFooter .download-app img{
+        height: 10vw;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .homeFooter .download-app .fab{
+        margin-right: 25px;
+        font-size: 18px;
+        position: relative;
+    }
+
+    .homeFooter a, .homeFooter span, .homeFooter p {
+        font-size: 10px;
+    }
+
+    .homeFooter h6 {
+        font-size: 12px;
+    }
+
+    .homeFooter .logo {
+        height: 30px;
+        margin: 0px 0 20px 0;
+    }
+
+    .col-hr {
+        border-bottom: 1px solid #666;
+        margin-left: 10px;
+    }
+
+    .homeFooter .other-links a{
+        font-size: 12px;
+    }
+
+    .timeline {width: 90%; left: 0;}
+    .timeline-icon {right: -10%;}
+    .mock-phone-div {margin-top: 50px;} 
+    .timeline-item {width: 100%;}
+
+    .secure-get-started li {
+        font-size: 12px;
+    }
+
+    .landing-map-image ul {
+        text-align: left !important;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .landing-map-image li {
+        margin: 0 !important;
+        margin-left: 25px !important;
+        margin-top: 20px !important;
+    }
+
+    .landing-map-image .fas {
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        margin: 0 !important;
+        margin-top: 15px;
+    }
+    
+
+}

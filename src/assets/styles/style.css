@@ -1,0 +1,692 @@
+:root {
+    --primaryColor: #37517e;
+    --PrimaryButtonColor: #7ba9da;
+    --primaryDarkColor: #1e2833;
+  }
+
+body, html {
+    overflow-x: hidden;
+}
+  
+.App {
+    font-family: 'Graphik', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  .btn-primary {
+      background: var(--primaryColor);
+      border-color: var(--primaryColor);
+  }
+
+.header-container {
+    background: var(--primaryColor);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    padding: 10px 8%;
+    z-index: 550;
+}
+
+.header-container .for-bg-effect {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0;
+}
+
+.header-container .for-bg-effect img {
+    width: 56.2%;
+    position: relative;
+    float: right;
+    height: 100%;
+}
+
+.header-container .logo-link {
+    position: relative;
+    width: auto;
+    display: inline;
+}
+
+.header-container .logo {
+    height: 50px;
+    margin: 5px 0 10px 0;
+}
+
+.header-container .authLinks {
+    position: absolute;
+    right: 8%;
+    top: 5px;
+}
+
+.header-container .homeNavLinks {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+.showNav, .hideNav {
+    display: block;
+}
+
+.homeNavLinks .close-nav {
+    display: none;
+}
+
+.header-container .homeNavLinks a{
+    color: #f0f0f0;
+    margin-right: 10px;
+    padding: 3px 0;
+}
+
+.header-container .homeNavLinks a:hover, .header-container .homeNavLinks a.active{
+    border-bottom: 2px solid #6891c1;
+}
+
+.header-container .authLinks .createAccount {
+    border-radius: 5px;
+    background: #7ba9da;
+    padding: 11px 20px !important;
+    color: whitesmoke;
+}
+
+.header-container .mobile-nav-toggle {
+    display: none;
+}
+
+.home-pages {
+    padding: 20px 8%;
+    position: relative;
+    display: block;
+    margin-bottom: 10em;
+}
+
+.home-pages-header {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--primaryColor);
+    border-bottom: 4px solid var(--primaryColor);
+}
+
+/* HERO CSS */
+
+.heroBlock {
+    background: var(--primaryColor);
+    position: relative;
+    display: block;
+    left: 0;
+    right: 0;
+    padding: 10px 7.5% 10% 7.5%;
+    z-index: 5;
+    overflow: hidden;
+    color: white;
+}
+  
+.heroBlock .for-bg-effect {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 96%;
+    padding: 0;
+}
+
+.heroBlock .for-bg-effect img {
+    width: 56.35%;
+    top: -1%;
+    position: relative;
+    float: right;
+}
+
+ .hero-title {
+    font-size: 56px;
+    color: #fff;
+    margin-top: 20px;
+    font-family: Graphik, Bold;
+}
+
+.hero-subtitle {
+    font-size: 36px;
+    color: #fff;
+    margin-top: -20px;
+    font-family: Graphik, Semibold;
+}
+
+ .hero-text {
+     font-size: 16px;
+     color: #fff;
+     margin-top: 0px;
+     font-family: Graphik, Semibold;
+ }
+ 
+.banner-dropdown {
+    color: var(--primaryColor);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.select-class .ant-select-selector{
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border-radius: 6px !important;
+    height: 47px;
+  }
+  
+  .divider{
+    display: inline-block;
+    width: 1px;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    vertical-align: bottom;
+    height: 100%;
+  }
+  
+  .banner-button .ant-btn{
+    background-color: var(--PrimaryButtonColor);
+    border-radius: 6px;
+    width: 127px;
+    border: none;
+    color: white;
+  }
+
+  .hero-search {
+      background: #d9dde4;
+      position: relative;
+      display: inline-block;
+      padding: 0;
+      margin: 2px 5px;
+      border-radius: 3px;
+      height: 32px;
+  }
+
+.calculator {
+    position: relative;
+    display: flexbox;
+    justify-content: right;
+}
+
+.calculator .rate-calculator {
+    background: #fff;
+    border-radius: 3px;
+    float: right;
+    width: 90%;
+}
+
+.calculator .hero-form-box {
+    border: 2px solid #7da9da;
+    box-shadow: 0px 2px 4px #333;
+    padding: 0 !important;
+    position: relative;
+    float: right;
+    z-index: 10;
+    background: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.calculator-input {
+    width: auto;
+    height: 33px !important;
+    border-radius: 3px;
+    min-width: 100px;
+    width: 30%;
+    display: inline;
+    float: left;
+    position: relative;
+    margin: 2px 10px;
+}
+
+.calculator-banner-dropdown {
+    background: #f0f0f0 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.calculator-select-class .ant-select-selector{
+    background: #d9dde4 0% 0% no-repeat padding-box !important;
+    border-radius: 3px !important;
+    width: 75px !important;
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+.calculator-select-class .ant-select{
+    margin: 0 !important;
+    height: 30px;
+}
+
+.rate-calculator {
+    position: relative;
+}
+
+.rate-calculator span.rate {
+    float: left;
+    margin-top: 8px;
+}
+
+.rate-calculator .rate-show {
+    display: inline;
+    position: relative;
+    top: -8px;
+    font-size: 12px;
+    font-weight: 1000;
+    width: 100%;
+}
+ 
+/* FOR Dropdown options formatting */
+.dropdown-format {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #37517E;
+}
+
+.dropdown-icon-flag {
+    height: 16px;
+    width: auto;
+    /* max-width: 20px; */
+    position: relative;
+    margin-top: 4px;
+}
+
+input,
+select {
+    position: relative !important;
+    height: 35px !important;
+    background: #d9dde4 !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+}
+
+.input-select-group {
+    padding-right: 0 !important;
+    background: transparent;
+}
+
+.input-select-group input {
+    background: #fbfbfb;
+    color: #666;
+    height: 35px;
+    border-radius: 0 !important;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    padding: 5px 10px;
+    font-size: 16px;
+    top: 1px;
+    position: relative;
+}
+
+.input-select-group input:disabled {
+    background: #202f49 !important;
+    color: #ddd;
+}
+
+.input-select-group .currency-box {
+    background: #7ba9da;
+    height: 35px;
+    top: 1px;
+    left: -20px;
+    padding: 8px 10px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+    display: inline-block;
+    color: #222;
+    font-weight: bold;
+    min-width: 70px;
+}
+
+.input-select-group .currency-box img {
+    position: relative;
+    display: inline;
+}
+
+.hero-form-box .currency-box small {
+    font-size: 10px !important;
+    position: relative;
+    display: inline;
+    float: left;
+    top: 2.5px;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+.hero-box input {
+    z-index: 10;
+    font-size: 14px;
+}
+
+.hero-box .ant-select-selector img {
+    margin-top: 9px !important;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+.hero-box .ant-select-selector small {
+    margin-top: 2px !important;
+    font-size: 10px;
+}
+
+.hero-box .ant-select .ant-select-arrow {
+    color: #ffffff !important;
+    margin-right: 22px !important;
+}
+
+.hero-box .calculator-banner-dropdown {
+    color: #000 !important;
+}
+
+.hero-box .calculator-select-class .ant-select-selector{
+    background: var(--PrimaryButtonColor) 0% 0% no-repeat padding-box !important;
+    border-radius: 2px !important;
+    border-color: #37517e !important;
+    height: 37px !important;
+    margin-top: 0px;
+    margin-left: -17px;
+    padding-left: 5px !important;
+    width: auto !important;
+}
+
+.hero-box .calculator-select-class .ant-select{
+    height: 35px !important;
+}
+
+.hero-form-box label {
+    font-weight: bold !important;
+    color: #efefef;
+}
+
+.hero-form-box label i {
+    font-size: 12px;
+}
+
+.transfer-desc {
+    border-left: 1px solid #f0f0f0;
+    height: 80px;
+    width: 100%;
+}
+
+.transfer-desc .desc {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.transfer-desc i {
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    margin-left: -9px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.input-select-group input:focus,
+.input-select-group input:active {
+    background: #202f49 !important;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.for-bg {
+    content: "";
+    position: relative;
+    right: 0;
+    left: 0;
+    margin-top: -1px;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 7vw solid var(--primaryColor);
+    pointer-events: none;
+    z-index: -5;
+}
+
+.hero-body, .navbar{
+    z-index: 20;
+}
+
+/* LANDING PAGE CONTINUES */
+.timeline-box {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+
+.mock-phone {
+    height: 450px;
+    float: right;   
+    top: 30px;
+    position: relative;
+}
+
+.timeline {
+    border-left: 2px dashed var(--PrimaryButtonColor);
+    height: 350px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 100px;
+    float: right;
+}
+
+.timeline .bullet-round {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    padding: 2.5px 7.5px;
+    position: relative;
+    top: -10px;
+    left: -12px;
+}
+
+.timeline-icon {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    float: right;
+    right: -100px;
+    top: -50px;
+}
+
+.timeline-item {
+    width: calc(110% - 0px)
+}
+
+.timeline-icon .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.action-btn-desktop {
+    position: relative;
+    display: block;
+    width: 50vw;
+    top: 40%;
+}
+
+.action-btn-desktop button{
+    position: relative;
+    margin-right: 15px;
+}
+
+.action-btn-mobile{
+    display: none;
+}
+
+/* LISTINGS ON LANDING PAGE */
+
+.recent-lists {
+    background: #eff5fb;
+    height: auto;
+    padding: 10%;
+}
+
+.recent-lists-box {
+    height: auto;
+    width: 100%;
+    background: white;
+    border-radius: 2px;
+    margin-top: -20px !important;
+    padding: 20px 10px;
+}
+
+.recent-lists-box p .star {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.recent-lists-box .user {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    height: 75px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.recent-lists-box .inner-box {
+    background: #efefef;
+    position: relative;
+    border-radius: 3px;
+}
+
+/* GET Started Securely section */
+
+.secure-get-started {
+    background: var(--primaryColor);
+    height: auto;
+}
+
+.secure-get-started img {
+    height: 25vw;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.secure-get-started h4 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.secure-get-started ul {
+    padding: 0;
+    margin-top: 35px;
+    position: relative;
+}
+
+.secure-get-started li {
+    margin-top: 20px;
+    color: #eee;
+    margin-left: 30px;
+}
+
+.secure-get-started .fas {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-top: 5px;
+}
+
+.landing-map-image img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-53%);
+}
+
+/* FOOTER CSS STARTS HERE */
+
+.homeFooter {
+    background: #1e2833;
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: 0;
+    bottom: 0;
+    padding-bottom: 20px !important;
+}
+
+.homeFooter h6 {
+    color: white;
+}
+
+.homeFooter a, .homeFooter span 
+{
+    color: #bbb;
+    font-size: 14px;
+}
+
+.homeFooter .logo {
+    height: 40px;
+    margin: 40px 0 20px 0;
+}
+
+.homeFooter ul {
+    margin: 0;
+    padding: 0;
+}
+
+.homeFooter li {
+    margin-top: 20px;
+}
+
+.homeFooter .download-app {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    padding-right: 0;
+}
+
+.homeFooter .download-app img{
+    height: 100px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.homeFooter .download-app .fab{
+    margin-right: 50px;
+    font-size: 24px;
+    position: relative;
+}
+
+.homeFooter .other-links a{
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+}

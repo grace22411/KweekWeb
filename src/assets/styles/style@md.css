@@ -1,0 +1,208 @@
+@media (max-width: 991px) {
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .header-container {
+        padding: 10px;
+        height: auto;
+    }
+
+    .header-container .logo {
+        margin: 10px;
+    }
+  
+    .header-container .authLinks {
+        position: absolute;
+        right: 3%;
+        top: 5px;
+    }
+
+    .header-container .mobile-nav-toggle {
+        display: inline-flex;
+        position: relative;
+        float: right;
+        color: whitesmoke;
+    }
+
+    .header-container .mobile-nav-toggle:hover {
+        color: #ccc;
+        box-shadow: rgb(121, 138, 138);
+    }
+
+    .header-container .homeNavLinks {
+        position: fixed;
+        right: -20px;
+        top: 0;
+        width: 200px;
+        display: block;
+        height: auto;
+        background: white;
+        padding: 50px 30px;
+        z-index: 1;
+        box-shadow: 0 0 6px#ccc;
+    }
+
+    .hideNav {
+        display: none !important;
+    }
+
+    .showNav {
+        display: block;
+    }
+
+    .header-container .homeNavLinks .close-nav{
+        position: absolute;
+        left: 27px;
+        top: 20px;
+        font-size: 16px;
+        display: inline;
+    }
+    .header-container .homeNavLinks a{
+        color: #37517e;
+        margin: 3px 0 3px 15px;
+        display: block;
+        float: left;
+        font-size: 16px;
+        width: 100px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .header-container .homeNavLinks a:hover, .header-container .homeNavLinks a.active{
+        font-weight: 500;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .home-pages {
+        padding: 20px;
+        position: relative;
+        display: block;
+        margin-bottom: 10em;
+    }
+
+    .heroBlock {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .hero-form-box {
+        border: 2px solid #7da9da;
+        box-shadow: 0px 2px 4px #333;
+        width: 100%;
+        padding: 0 !important;
+        margin: 0;
+        position: relative;
+        float: left;
+    }
+
+    input,
+    select {
+        position: relative;
+        height: 35px;
+        background: #d9dde4;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .calculator {
+        width: 100vw !important;
+        padding: 10px;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .rate-calculator, .hero-form-box {
+        float: left !important;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .timeline-box {
+        position: relative;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .timeline {
+        left: -20%;
+        right: 0;
+        width: 70%;
+        transform: translateX(30%);
+        top: 5%;
+    }
+
+    .mock-phone{
+        margin-top: 30%;
+        height: 270px;
+        margin-right: 20px;
+        float: right;
+    }
+
+    @media (max-width: 768px) {
+        
+    }
+
+    .recent-lists-box {
+        margin: 5px 10px !important;
+    }
+      
+}
+
+@media(max-width: 768px){
+    .rate-calculator {
+        background: none !important;
+    }
+
+    .rate-calculator span.rate {
+        display: block !important;
+        color: #fff;
+        width: 100%;
+        margin-left: -15px;
+    }
+
+    .rate-calculator .calculator-input {
+        margin-left: -15px;
+        border-radius: 0 !important;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .rate-calculator .rate-show {
+        display: none;
+    }
+
+    .rate-calculator .hero-search {
+        float: right;
+        margin-right: -15px;
+        padding-left: 8px !important;
+        border-radius: 0 !important;
+    }
+
+    .rate-calculator .ant-select-selector {
+        width: 80px !important;
+        border-radius: 0 !important;
+    }
+
+    .action-btn-desktop{
+        display: none;
+    }
+    
+    .action-btn-mobile{
+        display: block;
+        position: relative;
+        width: 50%;
+        float: right;
+        margin-right: 0;
+        left: 20px;
+        top: 50%;
+    }
+
+    .action-btn-mobile button {
+        float: left;
+        margin-top: 5%;
+        font-weight: bold;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
