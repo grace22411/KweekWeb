@@ -8,6 +8,9 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  
+variables:
+  prSourceBranch: '$(System.PullRequest.SourceBranch)'
 
 steps:
 - task: NodeTool@0
@@ -19,7 +22,32 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-  
+
+- task: PowerShell@2
+  displayName: Validate PR Branch 
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+
+      if("$(Build.Reason)" -eq "PullRequest")      
+      {
+        if("$(prSourceBranch)" -eq "refs/heads/dev"){
+          Write-Output "PR from dev branch is allowed"
+        }
+        elseif("$(prSourceBranch)" -eq "refs/heads/azure-pipelines"){
+            Write-Output "PR from azure-pipelines branch is allowed"
+        }
+        else{
+            Write-Error "Invalid branch. You cannot merge PR from the branch $(prSourceBranch). PR is ONLY accepted from the dev branch"
+        }
+      }
+      else{
+        Write-Output "PR validation skipped becasue build reason was not PullRequest but $(Build.Reason)"
+      }
+    failOnStderr: true
+    pwsh: true
+    
 - task: PublishBuildArtifacts@1
   displayName: Package Source
   inputs:
