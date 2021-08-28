@@ -1,6 +1,8 @@
 import React from 'react';
 import * as msal from 'msal'
 
+// Authentication
+
 const state = {
     stopLoopingRedirect: false,
     config: {
