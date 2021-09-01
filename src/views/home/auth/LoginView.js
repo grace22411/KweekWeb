@@ -57,7 +57,7 @@ const LoginView = () => {
                   <p>Or</p>
                   <div className="firstLine"></div>
                 </div>
-                <button className="signUpGoogle"> <img src={google} />Sign in with Google</button>
+                <button className="signUpGoogle"> <img src={google} alt="" />Sign in with Google</button>
               </div>
             </div>
           </div>
