@@ -5,7 +5,7 @@ import "../global.scss";
 import TransactionHistory from "./comp/TransactionHistory";
 import { OngoingTransactionAccept, OngoingTransactionInit } from "./comp/OngoingTransaction";
 
-const Transaction = () => {
+const Transactions = () => {
   const [currentView, setCurrentView] = useState("ongoing");
 
   const proceedToHistory = () => {
@@ -68,4 +68,4 @@ const Transaction = () => {
   );
 };
 
-export default Transaction;
+export default Transactions;

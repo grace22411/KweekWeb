@@ -27,17 +27,17 @@ var isIE = function isIE() {
 
   var B2C_SCOPES = {
     API_ACCESS: {
-      scopes: ["https://kweekmoneyuser.onmicrosoft.com/web.aggregator/dev.web.portal"]
+      scopes: [process.env.REACT_APP_MSAL_SCOPE]
     }
   };
   
   var msalAppConfig = {
     auth: {
-      clientId: '019a49ba-6ed7-4e03-a2e2-6f5fab000ead',
-      authority: 'https://kweekmoneyuser.b2clogin.com/kweekmoneyuser.onmicrosoft.com/B2C_1_signupsignin',
-      redirectUri: "https://kweektransferapp.azurewebsites.net",
+      clientId: process.env.REACT_APP_MSAL_CLIENT_ID,
+      authority: process.env.REACT_APP_MSAL_AUTHORITY,
+      redirectUri: process.env.REACT_APP_MSAL_REDIRECT_URL,
       validateAuthority: false,
-      postLogoutRedirectUri: 'window.location.origin'
+      postLogoutRedirectUri: process.env.REACT_APP_MSAL_REDIRECT_URL
     },
     cache: {
       cacheLocation: SESSION_STORAGE,
