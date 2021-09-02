@@ -2,7 +2,7 @@ import "./styles.scss";
 import Authentication from '../../../Authentication';
 
 export const LogoutView = () => {
-  Authentication.signOut();
+  //Authentication.signOut();
   return (
     <>
       <p style={{fontSize: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>

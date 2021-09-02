@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/image/logo.png"
 import { SidebarData } from "../data/SideBarData";
+import { APP_PATHS } from '../constants/appPath';
 
 export const SideBar = () => {
   return (
@@ -19,6 +20,7 @@ export const SideBar = () => {
                 </div>
               );
             })}
+            <Link activeClassName="active"  to={APP_PATHS.URLS.AUTH.LOGIN}><button>Log Out <i class="fas fa-sign-out-alt"></i></button></Link>
         </nav>
         
       </div>

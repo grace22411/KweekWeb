@@ -1,15 +1,17 @@
 export const APP_PATHS = {
     URLS: {
         AUTH: {
-            URL: '/auth',
             LOGIN: '/login',
-            LOGOUT: '/logout',
+            REGISTER: '/register',
             FORGOT_PASSWORD: '/forgot-password',
             RESET_PASSWORD: '/reset-password',
         },
         DASHBOARD: {
-            SEARCH: '/search',
-            TRANSACTION: '/transactions',
+            SEARCH:"/search",
+            TRANSACTION:"/transaction",
+            INVITE: "/invite",
+            PROFILE:"/profile",
+            ACCEPTANCE_REQUEST:"/requests"
         },
         SOCIAL: {
             FACEBOOK: 'https://facebook.com/kweek-transfer',
@@ -41,8 +43,11 @@ export const APP_PATHS = {
             RESET_PASSWORD: 'Reset Password',
         },
         DASHBOARD:{
-            SEARCH: 'Search',
-            TRANSACTION: 'See Transactions',
+            SEARCH:"Search",
+            TRANSACTION:"See Transactions",
+            INVITE:"See Initiated Invites",
+            PROFILE:"Set Your Profile",
+            ACCEPTANCE_REQUEST:"See acceptance requests"
         },
         HOME: 'Home',
         SERVICES: 'Services',
@@ -60,8 +65,8 @@ export const APP_PATHS = {
         COOKIE: 'Cookie Policy',
         CONTACT: 'Contact Us',
         REGULATION: 'Regulation',
-        SEARCH: 'Search',
-        TRANSACTION: 'Transactions'
+        SEARCH:"Search",
+        TRANSACTION:"Transaction"
     }
     
 }

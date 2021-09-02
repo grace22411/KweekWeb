@@ -5,9 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Authentication from './Authentication';
 
-Authentication.initialize();
+// Authentication.initialize();
 
-Authentication.run(()=>{
+// Authentication.run(()=>{
 
   ReactDOM.render(
     <React.StrictMode>
@@ -16,7 +16,7 @@ Authentication.run(()=>{
     document.getElementById('root')
   );
   
-});
+//});
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

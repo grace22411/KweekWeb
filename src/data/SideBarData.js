@@ -18,12 +18,12 @@ export const SidebarData = [
     },
     {
       title: 'My Initiated Invites',
-      path: '/project-fund',
+      path:  APP_PATHS.URLS.DASHBOARD.INVITE,
       icon: invite
     },
     {
         title: 'My Acceptance Requests',
-        path: '/my-savings',
+        path: APP_PATHS.URLS.DASHBOARD.ACCEPTANCE_REQUEST,
         icon: acceptance
       }
     

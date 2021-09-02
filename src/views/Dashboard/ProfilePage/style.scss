@@ -1,0 +1,130 @@
+$primarycolor: #37517e;
+$lightBlue: #8692a6;
+$deepgrey: #494949;
+$lightgrey: #858585;
+
+.profilePage{
+    padding:2% 10%;
+    h2{
+        color:$primarycolor;
+        font-weight: 700;
+    }
+    .profile{
+        width:100%;
+        height:auto;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        padding:30px 15px 15px 15px;
+        .details{
+            width:100%;
+            height:auto;
+            display: flex;
+            justify-content: space-between;
+            .name{
+                p{
+                    color:#00000047;
+                    margin-bottom:0;
+                }
+                h6{
+                    font-size:15px;
+                    font-weight: 700;
+                }
+            }
+            
+        }
+        .other{
+            margin-top: 20px;
+            p{
+                margin: 0;
+            }
+            .mail{
+                color:#00000047;
+                span{
+                    background-color: #FFB300;
+                    color:#000;
+                    font-size:9px;
+                    padding:2px 5px;
+                    border-radius: 3px;
+                }
+            }
+            .resend{
+                color:#000;
+                font-size:8px;
+                span{
+                    color:#5893EB;
+                }
+            }
+            h5{
+                font-size:15px;
+                font-weight: 700;
+                margin-top: 5px;;
+            }
+        }
+    }
+    .row{
+        margin-top: 50px;;
+    }
+}
+
+.defaultButton{
+    width:100%;
+    height:50px;
+    background-color: #DBDBDB;
+    color:#A0A0A0;
+    font-weight: 600;
+    border:none;
+}
+.show{
+    width:100%;
+    button{
+        width:100%;
+        height:50px;
+        background-color: $primarycolor;
+        color:#fff;
+        font-weight: 600;
+        border:none;
+    }
+    form{
+        background-color: #fff;
+        padding:15px;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 12px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        height:220px;
+        input{
+            text-align: center;
+            margin-bottom: 10px;
+            width:100%;
+            border-radius: 0 !important;
+            height:40px !important;
+            border:none;
+            background-color: #DBDBDB;
+            
+        }
+        ::placeholder{
+            color:#8F8F8F77 !important;
+        }
+        
+        button{
+            height: 35px;;
+            border-radius: 0;
+            border:none;
+        }
+    }
+    .input{
+        @extend form;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        i{
+            font-size:50px ;
+            color:green;
+        }
+        p{
+            font-weight: 700;
+            color:#37517E;
+        }
+    }
+}
