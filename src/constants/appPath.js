@@ -9,7 +9,7 @@ export const APP_PATHS = {
         DASHBOARD: {
             SEARCH:"/search",
             TRANSACTION:"/transaction",
-            INVITE: "/invite",
+            INVITE: "/invites",
             PROFILE:"/profile",
             ACCEPTANCE_REQUEST:"/requests"
         },
@@ -65,8 +65,6 @@ export const APP_PATHS = {
         COOKIE: 'Cookie Policy',
         CONTACT: 'Contact Us',
         REGULATION: 'Regulation',
-        SEARCH:"Search",
-        TRANSACTION:"Transaction"
     }
     
 }
