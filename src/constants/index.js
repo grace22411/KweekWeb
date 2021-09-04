@@ -12,7 +12,7 @@ import NIGERIA from "../assets/image/nigeria.png"
 import USA from "../assets/image/usa.png"
 import USER from "../assets/image/user.jpg"
 import MASTERCARD from "../assets/image/mastercard.png"
-import VISA from "../assets/image/visa.png"
+import VISA from "../assets/image/visacard.png"
 import OTHER from "../assets/image/others.png"
 
 const CURRENCIES = ['USD', 'NGN', 'GBP', 'EUR'];

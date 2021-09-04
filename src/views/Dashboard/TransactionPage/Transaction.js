@@ -26,7 +26,7 @@ const Transactions = () => {
                 <div className="card one" onClick={proceedToOngoing}>
                     <h3>Ongoing<br /> Transactions</h3>
                     <div>
-                    <i class="far fa-hourglass"></i>
+                    <i className="far fa-hourglass"></i>
                     </div>
                 </div>
               </div>
@@ -34,7 +34,7 @@ const Transactions = () => {
                 <div className="card two" onClick={proceedToHistory}>
                 <h3>Transaction<br /> History</h3>
                 <div>
-                <i class="fas fa-history"></i>
+                <i className="fas fa-history"></i>
                 </div>
                 </div>
               </div>
@@ -42,12 +42,12 @@ const Transactions = () => {
                 <div className="card two" >
                 <h3>Create<br /> New Invite</h3>
                 <div>
-                <i class="fas fa-plus-circle"></i>
+                <i className="fas fa-plus-circle"></i>
                 </div>
                 </div>
               </div>
             </div>
-            <div>
+            <div> 
               {currentView === "ongoing" ? (
                 <div className="split row">
                   <div className="col-md-6">

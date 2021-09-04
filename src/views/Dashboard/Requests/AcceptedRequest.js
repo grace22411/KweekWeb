@@ -8,7 +8,7 @@ const AcceptedRequest = () => {
         <>
             <Layout>
                 <div className="page">
-                    <Requests />
+                    <Requests /> 
                 </div>
             </Layout>
         </>

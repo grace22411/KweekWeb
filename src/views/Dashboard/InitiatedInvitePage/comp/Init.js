@@ -4,9 +4,7 @@ import "../style.scss";
 
 const Init = () => {
     return (
-        <>
-             
-        </>
+        <></>
     )
 }
 

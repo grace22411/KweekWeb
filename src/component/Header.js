@@ -10,17 +10,15 @@ function Header() {
     <>
       <div className="Head">
          <div className="username">
-            <h2>Howdy, <span>Nelson</span></h2>
+            <h2>Howdy, <span>Adebowale</span></h2>
             <p>Welcome Back!</p>
         </div>
         <div className="noti">
             <img src={notification} alt="" />
            <div className="profile-pic">
-
+             
            </div>
         </div>
-           
-        
       </div>
     </>
   );

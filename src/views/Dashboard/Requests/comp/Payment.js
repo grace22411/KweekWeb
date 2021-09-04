@@ -35,7 +35,7 @@ const Payment = () => {
         </div>
       ) : currentView === "success" ? (
         <div className="succes-payment">
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
             <h5>Payment Successful</h5>
             <Link activeClassName="active"  to={APP_PATHS.URLS.DASHBOARD.TRANSACTION}><button>Continue</button></Link>
         </div>

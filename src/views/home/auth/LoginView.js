@@ -61,10 +61,8 @@ const LoginView = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
-
-      {/* <h1>{APP_PATHS.NAMES.AUTH.LOGIN} page</h1> */}
     </>
   );
 };

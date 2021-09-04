@@ -15,11 +15,11 @@ const TransactionHistory = () => {
                     style={{ backgroundImage: `url(${item.picture})` }}
                   ></div>
                   <p>Rated you</p>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
                 </div>
               </div>
               <div className="text">
@@ -59,5 +59,4 @@ const TransactionHistory = () => {
     </>
   );
 };
-
 export default TransactionHistory;

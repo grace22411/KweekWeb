@@ -3,7 +3,6 @@ import Layout from "../../../component/Layout";
 import "./style.scss";
 import { IMAGES } from "../../../constants";
 import { Initiated } from "../../../data/InviteData";
-import Init from "./comp/Init";
 import {AcceptRequest} from "./comp/AcceptRequest";
 
 const Invite = () => {
@@ -34,11 +33,11 @@ const Invite = () => {
                                   backgroundImage: `url(${item.picture})`,
                                 }}
                               ></div>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
+                              <i className="fas fa-star"></i>
                             </div>
                           </div>
                           <div className="text">
@@ -60,7 +59,7 @@ const Invite = () => {
                               </div>
                               <div className="from">
                                 <h5>
-                                  <i class="far fa-clock"></i>
+                                  <i className="far fa-clock"></i>
                                   {item.time}
                                 </h5>
                               </div>
