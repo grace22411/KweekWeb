@@ -16,15 +16,15 @@ const Profile = () => {
               <div className="details">
                 <div className="name">
                   <p>First Name</p>
-                  <h6>Nelson</h6>
+                  <h6>Adebowale</h6>
                 </div>
                 <div className="name">
                   <p>Last Name</p>
-                  <h6>Mojolaoluwa</h6>
+                  <h6>Adebusuyi</h6>
                 </div>
                 <div className="name">
                   <p>Phone number</p>
-                  <h6>+234 706 894 6099</h6>
+                  <h6>+234 806 534 8422</h6>
                 </div>
                 <div className="name">
                   <p>Country</p>
@@ -43,7 +43,7 @@ const Profile = () => {
                 <p className="mail">
                   Email <span>Confirmation required</span>
                 </p>
-                <h5>adeyemojay@gmail.com</h5>
+                <h5>heclassy@gmail.com</h5>
                 <p className="resend">If you didn't receive our email, please click <span>Resend</span></p>
               </div>
             </div>
@@ -60,8 +60,6 @@ const Profile = () => {
           </div>
           
           </div>
-
-          
         </div>
       </Layout>
     </>

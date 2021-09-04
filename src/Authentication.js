@@ -108,7 +108,6 @@ var isIE = function isIE() {
           }
         }
       },
-
     signOut: function signOut() {
       return msalApp.logout();
     },

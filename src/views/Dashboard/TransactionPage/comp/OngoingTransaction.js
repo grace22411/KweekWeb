@@ -24,11 +24,11 @@ export const OngoingTransactionInit = () => {
                       className="pic"
                       style={{ backgroundImage: `url(${item.picture})` }}
                     ></div>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
                   </div>
                 </div>
                 <div className="text">
@@ -52,7 +52,7 @@ export const OngoingTransactionInit = () => {
                     <div className="from">
                       <p>Time</p>
                       <h5>
-                        <i class="far fa-clock"></i>
+                        <i className="far fa-clock"></i>
                         {item.time}
                       </h5>
                     </div>
@@ -100,11 +100,11 @@ export const OngoingTransactionAccept = () => {
                         className="pic"
                         style={{ backgroundImage: `url(${item.picture})` }}
                       ></div>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
+                      <i className="fas fa-star"></i>
                     </div>
                   </div>
                   <div className="text">
@@ -128,8 +128,8 @@ export const OngoingTransactionAccept = () => {
                       <div className="from">
                         <p>Time</p>
                         <h5>
-                          <i class="far fa-clock"></i>
-                          {item.time}
+                          <i className="far fa-clock"></i>
+                          {item.time} 
                         </h5>
                       </div>
                     </div>

@@ -16,7 +16,7 @@ const List = () => {
                         <div className="row text-center">
                             <img className="user" src="https://www.designyourway.net/blog/wp-content/uploads/2018/08/387011_3d-cute-wallpapers-for-desktop-hd-1-jpg_1024x768_h-700x525.jpg" alt="" />
                             <p><img className="star" src={IMAGES.STAR} alt="" /></p>
-                            <span style={{fontSize: 12}}><i class="fas fa-clock mr-1"></i>5 mins ago</span>
+                            <span style={{fontSize: 12}}><i className="fas fa-clock mr-1"></i>5 mins ago</span>
                         </div>
                     </div>
                     <div className="col-8">

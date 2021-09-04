@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
         <div className="col-md-10" style={{padding:"0"}}>
         <Header />
           <div className="Content">
-            {/* <MobileNavIcon>
+            {/* <MobileNavIcon> 
                 <img src={hamburger} onClick={showSidebar} alt="" />
             </MobileNavIcon>
 

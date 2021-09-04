@@ -9,7 +9,6 @@ Authentication.initialize();
 
 Authentication.run(()=>{
   
-  
   ReactDOM.render(
     <React.StrictMode>
     <App />

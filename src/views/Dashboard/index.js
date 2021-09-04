@@ -1,14 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import APP_PATHS from '../../constants/appPath';
-// import LoginView from "../home/auth/LoginView";
 import LogoutView from "../home/auth/Logout";
-import Search from "../Dashboard/SearchPage/Search"
-import Transactions from '../Dashboard/TransactionPage/Transaction';
-import Invite from '../Dashboard/InitiatedInvitePage/Invite';
-import Profile from '../Dashboard/ProfilePage/Profile';
-import AcceptedRequest from '../Dashboard/Requests/AcceptedRequest';
-
+import Search from "./SearchPage/Search"
+import Transactions from './TransactionPage/Transaction';
+import Invite from './InitiatedInvitePage/Invite.js';
+import Profile from './ProfilePage/Profile';
+import AcceptedRequest from './Requests/AcceptedRequest';
 
 const AppView =  ()  => {
     return(

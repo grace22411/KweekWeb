@@ -12,7 +12,6 @@ export const AcceptRequest = () => {
   const proceedToAccept = () => {
     setCurrentView("accept");
   };
-
   const backToList = () => {
     setCurrentView("list");
   };
@@ -22,7 +21,7 @@ export const AcceptRequest = () => {
         <div className="header">
           <h3>Incoming Acceptance Requests</h3>
           <p>Reference NO.</p>
-          <h2>KWKM23678568</h2>
+          <h2>KWKM23679568</h2>
         </div>
         <div className="requests">
           {currentView === "list" ? (
@@ -41,11 +40,11 @@ export const AcceptRequest = () => {
                         {item.noOfTransaction} transactions
                       </p>
                       <p className="trans">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                         {item.rate}.0
                       </p>
                     </div>
@@ -61,13 +60,13 @@ export const AcceptRequest = () => {
             <div className="request-details">
               <div className="picture">
                 <div className="pic" style={{backgroundImage:`url(${IMAGES.USER})`}}></div>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
                 <h5>Alexa Olugbenga</h5>
-                <p><i class="far fa-clock"></i>5 mins ago</p>
+                <p><i className="far fa-clock"></i>5 mins ago</p>
               </div>
               <div className="textDetails">
                 <div className="det">
@@ -99,7 +98,7 @@ export const AcceptRequest = () => {
               <div className="accept-details">
                 <div className="head">
                   <p onClick={backToList}>
-                    <i class="fas fa-arrow-left"></i>Back
+                    <i className="fas fa-arrow-left"></i>Back
                   </p>
                 </div>
                 <div className="det-contain">
@@ -111,7 +110,7 @@ export const AcceptRequest = () => {
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>
                     <h5>Alexa Olugbenga</h5>
-                    <p><i class="far fa-clock"></i>5 mins ago</p>
+                    <p><i className="far fa-clock"></i>5 mins ago</p>
                   </div>
                   <div className="textDetails">
                     <div className="tex">

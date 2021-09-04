@@ -20,7 +20,7 @@ export const ChangePassword = () => {
     <>
       {currentView === "default" ? (
         <button onClick={proceedToPasscode} className="defaultButton">
-          Change Password
+          Change Password 
         </button>
       ) : currentView === "passcode" ? (
         <div className="show">
@@ -45,7 +45,7 @@ export const ChangePassword = () => {
           <button onClick={backToDefault}>Change Password</button>
           <div className="input">
           <div>
-            <i class="fas fa-check-circle"></i>
+            <i className="fas fa-check-circle"></i>
             <p>Success!</p>
             </div>
           </div>
