@@ -14,11 +14,11 @@ const Requests = () => {
             <div className="accepted-request-style">
               <div className="user-detail">
                 <div className="user-picture" style={{ backgroundImage: `url(${item.picture})` }}></div>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
               </div>
               <div className="user-info">
                 <div className="head-name">

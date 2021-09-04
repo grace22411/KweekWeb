@@ -2,7 +2,7 @@ export const APP_PATHS = {
     URLS: {
         AUTH: {
             LOGIN: '/login',
-            REGISTER: '/register',
+            LOGOUT: '/logout',
             FORGOT_PASSWORD: '/forgot-password',
             RESET_PASSWORD: '/reset-password',
         },

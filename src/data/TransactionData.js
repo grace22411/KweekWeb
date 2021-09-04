@@ -8,7 +8,7 @@ export const OngoingTransactionInitiated = [
         from:"US",
         to:"NG",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:10000,
         give:30000000,
         picture:IMAGES.USER
@@ -19,7 +19,7 @@ export const OngoingTransactionInitiated = [
         from:"US",
         to:"NG",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:10000,
         give:30000000,
         picture:IMAGES.USER
@@ -30,7 +30,7 @@ export const OngoingTransactionInitiated = [
         from:"US",
         to:"NG",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:10000,
         give:30000000,
         picture:IMAGES.USER
@@ -41,7 +41,7 @@ export const OngoingTransactionInitiated = [
         from:"US",
         to:"NG",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:10000,
         give:30000000,
         picture:IMAGES.USER
@@ -52,7 +52,7 @@ export const OngoingTransactionInitiated = [
         from:"US",
         to:"NG",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:10000,
         give:30000000,
         picture:IMAGES.USER
@@ -68,7 +68,7 @@ export const OngoingTransactionAccepted = [
         from:"NG",
         to:"US",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:30000000,
         give:10000,
         picture:IMAGES.USER
@@ -79,7 +79,7 @@ export const OngoingTransactionAccepted = [
         from:"NG",
         to:"US",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:30000000,
         give:10000,
         picture:IMAGES.USER
@@ -90,7 +90,7 @@ export const OngoingTransactionAccepted = [
         from:"NG",
         to:"US",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:30000000,
         give:10000,
         picture:IMAGES.USER
@@ -101,7 +101,7 @@ export const OngoingTransactionAccepted = [
         from:"NG",
         to:"US",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:30000000,
         give:10000,
         picture:IMAGES.USER
@@ -112,7 +112,7 @@ export const OngoingTransactionAccepted = [
         from:"NG",
         to:"US",
         tag:'invite initiated',
-        time:"5 min ago",
+        time:"5 mins ago",
         recieve:30000000,
         give:10000,
         picture:IMAGES.USER

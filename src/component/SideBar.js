@@ -8,7 +8,7 @@ import { APP_PATHS } from '../constants/appPath';
 export const SideBar = () => {
   return (
       <div className="SideMenu">
-        <img src={logo} alt=""  className="logo"/>
+        <img src={logo} alt="" className="logo"/>
       <nav>
         {SidebarData.map((item, index) => {
               return (
@@ -20,7 +20,7 @@ export const SideBar = () => {
                 </div>
               );
             })}
-            <Link activeClassName="active"  to={APP_PATHS.URLS.AUTH.LOGIN}><button>Log Out <i class="fas fa-sign-out-alt"></i></button></Link>
+            <Link activeClassName="active"  to={APP_PATHS.URLS.AUTH.LOGOUT}><button>Log Out <i class="fas fa-sign-out-alt"></i></button></Link>
         </nav>
         
       </div>
