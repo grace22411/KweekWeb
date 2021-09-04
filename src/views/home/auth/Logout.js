@@ -12,5 +12,4 @@ export const LogoutView = () => {
     </>
   )
 }
-
 export default LogoutView;
