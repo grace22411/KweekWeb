@@ -8,11 +8,15 @@ $lightgrey:#858585;
 .Transac{
     h1{
         margin-top: 0;
-        color:$primarycolor;
+        color: $primarycolor;
         font-weight: 800;
         font-size: 30px;;
         padding-bottom: 20px;
         border-bottom: 1px solid #C9CCCF70;;
+        margin-bottom: 35px;
+        @media (max-width: 768px) {
+            margin-bottom: 20px;
+        }
     }
     .cardie{
         .col-md-4{
@@ -21,7 +25,7 @@ $lightgrey:#858585;
             .card{
                 width:100%;
                 height:100px;
-                background: #D9DDE5 0% 0% no-repeat padding-box;
+                background: #D9DDE4 0% 0% no-repeat padding-box;
                 border-radius: 12px;
                 display:flex;
                 justify-content: space-between;
@@ -29,7 +33,7 @@ $lightgrey:#858585;
                 cursor: pointer;
                 transition: .2s ease-in;
                 i{
-                    font-size:45px;
+                    font-size: 45px;
                     float: right;
                     margin-top: -50px;
                     color:$primarycolor;
@@ -38,8 +42,26 @@ $lightgrey:#858585;
                     font-size: 20px;
                     color:$primarycolor;
                 }
+                @media (max-width: 768px) {
+                    height: 50px;
+                    padding: 10px;
+                    margin: 10px;
+                    left: -10px;
+                    h3 {
+                        font-size: 14px;
+                        font-weight: 700;
+                        margin-top: -2.5px;
+                    }
+                    i {
+                        margin-top: -32.5px;
+                        font-size: 20px;
+                    }
+                }
             }
-            .card:hover{
+            @media (max-width: 768px) {
+                padding-bottom: 0px;
+            }
+            .card:hover, .card.active {
                 background-color: $primarycolor;
                 h3,i{
                     color:#fff;
@@ -49,26 +71,35 @@ $lightgrey:#858585;
     }
     .split{
         margin-top:40px;
+        .right-side{
+            border-left: 2px solid #ACACAC45;
+        }
     }
 }
 
 .Initiated{
     padding-right:40px;;
-    h4{
+    h4{      
+        background-color: #D9DDE4;
+        color:#4F5153;
+        margin-bottom: 20px;
+        font-size:20px;
+        display: inline-block;
+        padding:5px 15px;
        
-            background-color: #D9DDE4;
-            color:#4F5153;
-            margin-bottom: 20px;
-            font-size:20px;
-            display: inline-block;
-            padding:5px 15px;
-       
+    }
+    @media (max-width: 768px) {
+        padding: 0px;
     }
 }
 .InitiatedTwo{
     padding-left:40px;;
     padding-right: 0;
     @extend .Initiated;
+
+    @media (max-width: 768px) {
+        padding: 0px;
+    }
 }
 .PerInitiated{
     width:100%;
@@ -77,48 +108,71 @@ $lightgrey:#858585;
     background-color: #fff;
     margin-bottom: 30px;
     padding:10px;
+    border-radius: 5px;
     .head{
         text-align: right;
-        width:100%;
-        height:25px;
+        width: 100%;
+        margin-bottom: -25px;
+        margin-top: 0px;
         p{
             background-color: #BEBEBE;
             color:#fff;
-            font-size:13px;
+            font-size: 13px;
             display: inline-block;
-            padding:0 15px;
+            padding: 0 15px;
         }
     }
     .content{
-        display: flex;
+        display: flex !important;
         .picture{
             width:25%;
+            //height: 300px;
             display: flex;
             justify-content: center;
             align-items: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-5%);
             .pic{
                 height:60px;
                 width:60px;
                 background-size: cover;
                 border-radius: 100%;
+                @media (max-width: 768px) {
+                    height: 40px;
+                    width: 40px;
+                }
             }
             i{
                 font-size:12px;
                 color:$primarycolor;
+                @media (max-width: 768px) {
+                    font-size: 8px;
+                }
+            }
+            @media (max-width: 768px) {
+                margin-left: -10px;
             }
         }
         .text{
             width:75%;
+            height: auto;
            p{
                color:$primarycolor;
                opacity: 0.8;
                font-size:12px;
-               margin-bottom: 0;;
+               margin-bottom: 0;
+               @media (max-width: 768px) {
+                    font-size: 9px;
+                }
            } 
            h2{
                font-size: 16px;
                font-weight: 800;
                color:$primarycolor;
+               @media (max-width: 768px) {
+                    font-size: 12px;
+                }
            }
            .transactionDetails{
                width:100%;
@@ -136,7 +190,7 @@ $lightgrey:#858585;
                    }
                    h5{
                        display: flex;
-                       font-size:10px;
+                       font-size: 10px;
                        font-weight: 600;
                        i{
                            margin-right: 4px;;
@@ -153,19 +207,28 @@ $lightgrey:#858585;
                @extend .transactionDetails;
                border:none;
                padding-bottom: 0;
+               @media (max-width: 768px) {
+                    margin-bottom: -10px;
+                }
                p{
                 color:#858688;
                 font-weight: 600;
-                font-size:9px;
-                margin-bottom: 5px;;
+                font-size: 9px;
+                margin-bottom: 0px;;
                }
                h3{
                    color:$primarycolor;
                    font-weight: 800;
                    font-size: 18px;
                    span{
-                       font-size:16px;
+                       font-size:12px;
                    }
+                   @media (max-width: 768px) {
+                        font-size: -14px;
+                        span {
+                            font-size: 9px;
+                        }
+                    }
                }
            }
         }
@@ -233,6 +296,57 @@ $lightgrey:#858585;
                     }
                     h5{
                         font-size: 15px;
+                    }
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            .picture {
+                margin-top: -15px;
+                .pic {
+                    height: 40px;
+                    width: 40px;
+                }
+                .fas { font-size: 7px;}
+                p {font-size: 8px;}
+            }
+            .text{
+                width: 85%;
+                margin-top: -10px;
+                margin-left: 5px;
+                .nameStatus{
+                    display: flex;
+                    justify-content: space-between;
+                    h2{
+                        font-size: 14px;;
+                        color:$primarycolor;
+                    }
+                    p{
+                        color:#32BE00;
+                        font-weight: 600;
+                        font-size: 10px;
+                        margin-top: 2.5px;
+                    }
+                }
+                .info{
+                    display: flex;
+                    margin-top: 10px;
+                    .from{
+                        p{
+                            color:#858688;
+                            font-weight: 600;
+                            font-size: 8px;
+                            margin-bottom:0;
+                            margin: 0 2.5px !important;
+                            float: left;
+    
+                        }
+                        h5{
+                            font-size: 8px;
+                            float: left;
+                            font-weight: bold;
+                            margin: 0 2.5px !important;
+                        }
                     }
                 }
             }

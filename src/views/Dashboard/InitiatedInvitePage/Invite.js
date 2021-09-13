@@ -18,11 +18,11 @@ const Invite = () => {
         <div className="page">
           <div className="Transac container">
             <div className="cardie row">
-              <div className="col-md-6">
+              <div className="col-md-6 option">
               <h4>My Initiated Invites</h4>
                 {Initiated.map((item, index) => {
                   return (
-                    <div className="PerInitiated" key={index}>
+                    <div className="InvitedInitiated" key={index}>
                       <div className="content">
                         <div className="subcontent">
                           <div className="picture">
@@ -100,7 +100,7 @@ const Invite = () => {
                   );
                 })}
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 multi-select">
               {currentView === "select" ? (
                 <>
                 <p style={{fontSize:"20px",color:"#37517E"}}>Select an invite to view Acceptance Requests</p>
