@@ -8,6 +8,7 @@ export const APP_PATHS = {
         },
         DASHBOARD: {
             SEARCH:"/search",
+            SEARCH_RESULT:"/search-results",
             TRANSACTION:"/transaction",
             INVITE: "/invites",
             PROFILE:"/profile",

@@ -12,16 +12,17 @@ export const AcceptRequest = () => {
   const proceedToAccept = () => {
     setCurrentView("accept");
   };
+
   const backToList = () => {
     setCurrentView("list");
   };
   return (
     <>
-      <div className="section">
+      <section>
         <div className="header">
           <h3>Incoming Acceptance Requests</h3>
           <p>Reference NO.</p>
-          <h2>KWKM23679568</h2>
+          <h2>KWKM23678568</h2>
         </div>
         <div className="requests">
           {currentView === "list" ? (
@@ -135,7 +136,7 @@ export const AcceptRequest = () => {
             </>
           ) : null}
         </div>
-      </div>
+      </section>
     </>
   );
 };

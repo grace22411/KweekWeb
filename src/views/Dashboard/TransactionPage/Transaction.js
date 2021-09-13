@@ -10,10 +10,22 @@ const Transactions = () => {
 
   const proceedToHistory = () => {
       setCurrentView("history");
+      document.querySelector('#ongoing').className = "card two";
+      document.querySelector('#create').className = "card two";
+      document.querySelector('#history').className = "card two active";
   };
   const proceedToOngoing = () => {
     setCurrentView("ongoing");
-};
+    document.querySelector('#history').className = "card two";
+    document.querySelector('#create').className = "card two";
+    document.querySelector('#ongoing').className = "card two active";
+  };
+  const proceedToCreate = () => {
+    setCurrentView("create");
+    document.querySelector('#history').className = "card two";
+    document.querySelector('#ongoing').className = "card two";
+    document.querySelector('#create').className = "card two active";
+  };
 
   return (
     <>
@@ -23,7 +35,7 @@ const Transactions = () => {
             <h1>My Transactions</h1>
             <div className="cardie row">
               <div className="col-md-4">
-                <div className="card one" onClick={proceedToOngoing}>
+                <div id="ongoing" className="card one" onClick={proceedToOngoing}>
                     <h3>Ongoing<br /> Transactions</h3>
                     <div>
                     <i className="far fa-hourglass"></i>
@@ -31,19 +43,19 @@ const Transactions = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card two" onClick={proceedToHistory}>
-                <h3>Transaction<br /> History</h3>
-                <div>
-                <i className="fas fa-history"></i>
-                </div>
+                <div id="history" className="card two" onClick={proceedToHistory}>
+                  <h3>Transaction<br /> History</h3>
+                  <div>
+                  <i className="fas fa-history"></i>
+                  </div>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card two" >
-                <h3>Create<br /> New Invite</h3>
-                <div>
-                <i className="fas fa-plus-circle"></i>
-                </div>
+                <div id="create" className="card two" onClick={proceedToCreate}>
+                  <h3>Create<br /> New Invite</h3>
+                  <div>
+                    <i className="fas fa-plus-circle"></i>
+                  </div>
                 </div>
               </div>
             </div>

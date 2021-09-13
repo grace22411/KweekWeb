@@ -25,16 +25,16 @@ const Requests = () => {
                   <h1>{item.name}</h1>
                   <h5>Reference NO.:{item.ref}</h5>
                 </div>
-                <div className="other-details">
-                  <div className="location">
-                    <div className="from">
+                <div className="other-details row">
+                  <div className="location col-md-3 col-12">
+                    <div className="from col-md-6 col-6">
                       <p>From</p>
                       <h5>
                         <img src={IMAGES.NIGERIA} alt="" />
                         {item.from}
                       </h5>
                     </div>
-                    <div className="from">
+                    <div className="from col-md-6 col-6">
                       <p>To</p>
                       <h5>
                         <img src={IMAGES.USA} alt="" />
@@ -42,27 +42,27 @@ const Requests = () => {
                       </h5>
                     </div>
                   </div>
-                  <div className="transact">
-                    <div className="from">
+                  <div className="transact col-md-4 col-6">
+                    <div className="from col-md-6 col-6">
                       <p>I send</p>
                       <h5>
                         {item.send} <span> USD</span>
                       </h5>
                     </div>
-                    <div className="from">
+                    <div className="from col-md-6 col-6">
                       <p>I recieve</p>
                       <h5>
                         {item.recieve} <span> NGN</span>
                       </h5>
                     </div>
                   </div>
-                  <div className="offer from">
+                  <div className="offer from col-md-1 col-4">
                     <p>Offered Rate</p>
                     <h5>
                       {item.rate} <span> NGN/USD</span>
                     </h5>
                   </div>
-                  <div className="status">
+                  <div className="status col-md-4 col-8">
                       <h5>Request Status: <span>Accepted</span></h5>
                       <p>Payment Window time</p>
                   </div>

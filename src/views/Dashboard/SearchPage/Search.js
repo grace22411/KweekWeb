@@ -5,6 +5,7 @@ import "../global.scss";
 // import RecentListComponent from "../../../component/recentList";
 // import APP_PATHS from '../../../constants/appPath';
 import { COUNTRIES } from "../../../constants/index";
+import { Link } from "react-router-dom";
 // import ButtonComponent from "../../../component/button";
 
 const countries = COUNTRIES.map((country) => {
@@ -54,7 +55,7 @@ export const Search = () => {
                 <option>Currency</option>
                 <option>Recieving Country</option>
               </select>
-              <button>SEARCH INVITES</button>
+              <Link to="search-results">SEARCH INVITES</Link>
             </div>
           </div>
         </div>

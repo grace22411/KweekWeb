@@ -14,7 +14,7 @@ const TransactionHistory = () => {
                     className="pic"
                     style={{ backgroundImage: `url(${item.picture})` }}
                   ></div>
-                  <p>Rated you</p>
+                  <p>Ratings</p>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
