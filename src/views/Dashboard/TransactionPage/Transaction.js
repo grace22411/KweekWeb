@@ -57,7 +57,7 @@ const Transactions = () => {
                   <div className="col-md-6">
                         <OngoingTransactionInit />
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 right-side">
                         <OngoingTransactionAccept />
                   </div>
                 </div>

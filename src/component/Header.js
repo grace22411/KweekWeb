@@ -4,7 +4,10 @@ import "./styles.scss"
 import { IMAGES} from "../constants/index";
 import { Link} from "react-router-dom";
 import { APP_PATHS } from '../constants/appPath';
+<<<<<<< HEAD
 import { SideBar } from "./SideBar";
+=======
+>>>>>>> 5ef75fbd3639bd5b818ad85401684580cfcc179c
 
 
 function Header() {

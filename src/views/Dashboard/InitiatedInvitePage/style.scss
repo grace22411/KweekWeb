@@ -10,7 +10,7 @@ $lightgrey: #858585;
     padding-right: 40px;
     @include breakpoint("xs") {
       padding-right: 0;
-      padding-left: 0; 
+      padding-left: 0;
     }
     @include breakpoint("sm") {
       padding-right: 0;
