@@ -11,6 +11,22 @@ export const OngoingTransactionInitiated = [
         time:"5 mins ago",
         recieve:10000,
         give:30000000,
+        rate:420,
+        status:"Pay-in initiated",
+        ref:"KWKMN57576868",
+        picture:IMAGES.USER
+    },
+    {
+        type:"Transaction Recipient",
+        name:"ALEXA OLUGBENGA",
+        from:"US",
+        to:"NG",
+        tag:'invite initiated',
+        time:"5 mins ago",
+        recieve:10000,
+        give:30000000,rate:420,
+        status:"Pay-in initiated",
+        ref:"KWKMN57576868",
         picture:IMAGES.USER
     },
     {
@@ -22,6 +38,9 @@ export const OngoingTransactionInitiated = [
         time:"5 mins ago",
         recieve:10000,
         give:30000000,
+        rate:420,
+        status:"Pay-in initiated",
+        ref:"KWKMN57576868",
         picture:IMAGES.USER
     },
     {
@@ -33,6 +52,9 @@ export const OngoingTransactionInitiated = [
         time:"5 mins ago",
         recieve:10000,
         give:30000000,
+        rate:420,
+        status:"Pay-in initiated",
+        ref:"KWKMN57576868",
         picture:IMAGES.USER
     },
     {
@@ -44,17 +66,9 @@ export const OngoingTransactionInitiated = [
         time:"5 mins ago",
         recieve:10000,
         give:30000000,
-        picture:IMAGES.USER
-    },
-    {
-        type:"Transaction Recipient",
-        name:"ALEXA OLUGBENGA",
-        from:"US",
-        to:"NG",
-        tag:'invite initiated',
-        time:"5 mins ago",
-        recieve:10000,
-        give:30000000,
+        rate:420,
+        status:"Pay-in initiated",
+        ref:"KWKMN57576868",
         picture:IMAGES.USER
     }
 

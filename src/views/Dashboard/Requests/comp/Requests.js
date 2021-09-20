@@ -26,7 +26,7 @@ const Requests = () => {
                   <h5>Reference NO.:{item.ref}</h5>
                 </div>
                 <div className="other-details row">
-                  <div className="location col-md-3 col-12">
+                  <div className="location col-md-3 col-6">
                     <div className="from col-md-6 col-6">
                       <p>From</p>
                       <h5>
@@ -56,13 +56,13 @@ const Requests = () => {
                       </h5>
                     </div>
                   </div>
-                  <div className="offer from col-md-1 col-4">
+                  <div className="offer from col-md-1 col-12">
                     <p>Offered Rate</p>
                     <h5>
                       {item.rate} <span> NGN/USD</span>
                     </h5>
                   </div>
-                  <div className="status col-md-4 col-8">
+                  <div className="status col-md-4 col-12">
                       <h5>Request Status: <span>Accepted</span></h5>
                       <p>Payment Window time</p>
                   </div>

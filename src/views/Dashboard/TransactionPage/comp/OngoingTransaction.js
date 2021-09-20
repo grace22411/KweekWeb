@@ -1,19 +1,25 @@
-import React from "react";
+import React,{useState} from "react";
 import {
   OngoingTransactionAccepted,
   OngoingTransactionInitiated,
 } from "../../../../data/TransactionData";
 import { IMAGES } from "../../../../constants";
 import "../styles.scss";
+import { TransactionModal, TransactionModalAccepted } from "../../../../component/Modal";
+
+
 
 export const OngoingTransactionInit = () => {
+  const [modalData, setModalData] = useState(null);
+
+  
   return (
     <>
       <div className="Initiated">
         <h4>My Initiated Invites</h4>
         {OngoingTransactionInitiated.map((item, index) => {
           return (
-            <div className="PerInitiated" key={index}>
+            <div className="PerInitiated" key={index} onClick={() => setModalData(item)} style={{cursor:"pointer"}}>
               <div className="head">
                 <p>{item.tag}</p>
               </div>
@@ -76,12 +82,15 @@ export const OngoingTransactionInit = () => {
             </div>
           );
         })}
+
       </div>
+      <TransactionModal data={modalData} onClose={() => setModalData(null)} />
     </>
   );
 };
 
 export const OngoingTransactionAccept = () => {
+  const [modalDataAccept, setModalDataAccept] = useState(null);
   return (
     <>
       <div className="InitiatedTwo">
@@ -89,7 +98,7 @@ export const OngoingTransactionAccept = () => {
         {OngoingTransactionAccepted.map((item, index) => {
           return (
             <>
-              <div className="PerInitiated" key={index}>
+              <div className="PerInitiated" onClick={() => setModalDataAccept(item)} key={index} style={{cursor:"pointer"}}>
                 <div className="head">
                   <p>{item.tag}</p>
                 </div>
@@ -154,6 +163,7 @@ export const OngoingTransactionAccept = () => {
           );
         })}
       </div>
+      <TransactionModalAccepted data={modalDataAccept} onClose={() => setModalDataAccept(null)} />
     </>
   );
 };

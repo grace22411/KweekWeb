@@ -55,7 +55,7 @@ export const Search = () => {
                 <option>Currency</option>
                 <option>Recieving Country</option>
               </select>
-              <Link to="search-results">SEARCH INVITES</Link>
+              <Link to="search-results"><button>SEARCH INVITES</button></Link>
             </div>
           </div>
         </div>
