@@ -12,6 +12,7 @@ const Invite = () => {
       setCurrentView("accepted");
   };
 
+
   return (
     <>
       <Layout>

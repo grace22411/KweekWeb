@@ -214,12 +214,57 @@ $lightgrey: #858585;
         @media only screen and (min-width: 320px) and (max-width: 420px) {
             margin-top:10px;
           }
+          @media only screen and (min-width: 421px) and (max-width: 768px) {
+            margin-top:10px;
+          }
+      }
+      .footer{
+          display: none;
+          justify-content: space-between;
+          margin-top:15px;
+          p {
+            color: #6d6d6d;
+            font-size: 12px;
+            font-weight: 400;
+            font-style: italic;
+          }
+          div{
+              display: flex;
+              p{
+                  color:#000;
+                  font-style: normal;
+                  i{
+                      margin-right: 5px;
+                  }
+              }
+              button{
+                  background-color: $primarycolor;
+                  color:#fff;
+                  border:none;
+                  margin-left: 20px;
+              }
+          }
+          @media only screen and (min-width: 320px) and (max-width: 420px) {
+            flex-direction: column;
+          }
           @media only screen and (min-width: 421px) and (max-width: 767px) {
             margin-top:10px;
+            flex-direction: column;
           }
       }
     }
   }
+}
+
+.accepted-request-style:nth-child(1){
+    .user-info{
+        .other-details{
+            .footer{
+                display: flex !important;
+            }
+        }
+    }
+    
 }
 .payment-details {
   form {

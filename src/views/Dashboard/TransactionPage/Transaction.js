@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "../../../component/Layout";
 import "./styles.scss";
 import "../global.scss";
@@ -23,6 +23,9 @@ const Transactions = () => {
     document.querySelector('#ongoing').className = "card two active";
   };
  
+  useEffect(() => {
+    document.querySelector('#ongoing').className = "card two active";
+  }, []);
 
   return (
     <>

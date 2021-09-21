@@ -61,9 +61,9 @@ const List = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 px-3">
+                    <div className="col-12 px-3 foot">
                         <button className="btn btn-primary float-left">Initiate Transaction</button>
-                        <Link to="/txn/5skjd88dd" className="float-right" style={{color: 'var(--primaryColor)', margin: 8}}><i className="fas fa-share"></i> Share</Link>
+                        <Link to="/txn/5skjd88dd"  style={{color: 'var(--primaryColor)', margin: 8}}><i class="fas fa-share-alt"></i><i class="far fa-copy"></i></Link>
                     </div>
                 </div>
             </div>

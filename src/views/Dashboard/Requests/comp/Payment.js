@@ -14,6 +14,7 @@ const Payment = () => {
     setCurrentView("success");
   };
   return (
+    <div className="payment-option" >
     <div className="payment-details">
       {currentView === "value" ? (
         <form>
@@ -40,6 +41,7 @@ const Payment = () => {
             <Link activeClassName="active"  to={APP_PATHS.URLS.DASHBOARD.TRANSACTION}><button>Continue</button></Link>
         </div>
       ) : null}
+    </div>
     </div>
   );
 };

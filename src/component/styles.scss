@@ -53,7 +53,7 @@ $primarycolor: #37517e;
   .toggle-menu {
     display: none;
   }
-  @media only screen and (min-width: 321px) and (max-width: 767px) {
+  @media only screen and (min-width: 321px) and (max-width: 768px) {
     height: 50px;
     width: 100vw;
     margin: 0;
@@ -184,8 +184,9 @@ $primarycolor: #37517e;
     }
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-  .SideMenu {box-shadow: 0 0 6px;};
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .SideMenu {box-shadow: 0 0 6px;
+  width:268px};
   .SideMenu.collapsed {
     display: none;
   }
@@ -217,7 +218,6 @@ $primarycolor: #37517e;
     margin-left: 1% !important;
     padding: 12.5px 10px;
   }
-
   .text-muted {
     font-size: 10px;
   }
@@ -252,10 +252,18 @@ $primarycolor: #37517e;
     top: -10px;
     .row {
       padding: 0 10px;
+      
     }
   }
 }
 
+.foot{
+  display: flex;
+  justify-content: space-between;
+  i{
+    margin-left:10px;
+  }
+}
 
 .ant-modal-mask{
   background-color: rgba(0, 0, 0, 0.85);

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { AcceptanceRequest } from "../../../../data/InviteData";
 import "../style.scss";
 import {IMAGES} from '../../../../constants'; 
@@ -16,9 +16,16 @@ export const AcceptRequest = () => {
   const backToList = () => {
     setCurrentView("list");
   };
+
+  useEffect(() => {
+    document.querySelector('#history').scrollIntoView({
+      behavior: "smooth",
+    })
+  }, []);
+  
   return (
     <>
-      <section>
+      <section id="history">
         <div className="header">
           <h3>Incoming Acceptance Requests</h3>
           <p>Reference NO.</p>
